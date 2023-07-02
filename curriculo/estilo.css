@@ -1,0 +1,171 @@
+html {
+    margin: 0;
+    padding: 0;
+    /*background-image:url("https://i.pinimg.com/originals/d0/7b/51/d07b51aa1fbd871620c804e602ac2a29.jpg");*/
+    background-image:url("https://wallpaperaccess.com/full/5298459.jpg");
+    /*background-size: 2%;*/
+
+    background-size: cover; /* Valor de escala para ampliar a imagem */
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    transition: opacity 0.3s ease-in-out;
+    max-width: 100%; /* Defina o valor desejado para a largura máxima do contêiner */
+}
+.profile-pic {
+    width: 200px; /* Defina a largura desejada para a imagem */
+    height: auto; /* Permite que a altura seja ajustada proporcionalmente */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e centraliza horizontalmente */
+    display: block; /* Permite que a margem automática funcione corretamente */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: white;
+    z-index: -1;
+}
+
+.conteiner {
+    /*border: 5px solid #6eff25;*/
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.contato::before {
+    content: ""; /* Código do ícone de "uso" na Font Awesome */
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    left: 100px;
+    top: 10%;
+    margin: 50px;
+    height: px;
+    transform: translateY(-50%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact:hover {
+    opacity: 1;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    border: 2px solid blue;
+    font-family: Arial, sans-serif;
+}
+
+.skills.show {
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in-out;
+
+}
+
+.show-more {
+    border: 2px solid blue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1e107c21;
+    padding: 4px;
+    text-align: center;
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #333;
+    font-size: 20px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #637ab9;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons li a:hover {
+    background-color: #333;
+    color: #112f56;
+}
+
+/**
+btn mostraanimado
+ */
+.show-more {
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+
+.show-more::after {
+    content: '+';
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.show-more.show::after {
+    transform: rotate(45deg);
+}
+
+.show-more:hover::after {
+    color: blue;
+}

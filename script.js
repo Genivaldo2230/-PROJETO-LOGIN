@@ -12,4 +12,5 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assents/avatar-gda.png")
   }
+   
 }

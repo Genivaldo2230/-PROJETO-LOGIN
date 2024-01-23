@@ -53,12 +53,12 @@ h1 {
 /* .contact {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-} */
+} 
 
 .contact:hover {
     opacity: 1;
 }
-
+*/
 .contact {
     margin-bottom: 10px;
 }
@@ -169,6 +169,9 @@ btn mostraanimado
 .show-more:hover::after {
     color: blue;
 }
+<<<<<<< HEAD
 a{
     color: rgb(61, 204, 48);
 }
+=======
+>>>>>>> 723994c116df3d637e87cf5c179d50f5cc4d00d5

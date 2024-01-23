@@ -169,3 +169,6 @@ btn mostraanimado
 .show-more:hover::after {
     color: blue;
 }
+a{
+    color: rgb(61, 204, 48);
+}

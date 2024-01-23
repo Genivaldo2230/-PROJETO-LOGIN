@@ -43,17 +43,17 @@ body {
     top: 10%;
     margin: 50px;
     height: px;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 h1 {
     text-align: center;
 }
 
-.contact {
+/* .contact {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-}
+} */
 
 .contact:hover {
     opacity: 1;

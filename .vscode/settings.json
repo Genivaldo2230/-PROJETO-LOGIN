@@ -63,5 +63,6 @@
     "tiver",
     "usando"
   ],
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "livePreview.defaultPreviewPath": "/curriculo/Currículo.html"
 }

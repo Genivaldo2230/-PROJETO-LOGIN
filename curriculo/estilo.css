@@ -49,24 +49,30 @@ body {
 h1 {
     text-align: center;
 }
-
-/* .contact {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-} 
-
-.contact:hover {
-    opacity: 1;
-}
-*/
 .contact {
     margin-bottom: 10px;
 }
-
 .section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  width: 87%;
+  text-align: justify;
+  font-family: initial;
 }
 
+#p{
+  margin-bottom: 20px;
+  background-color: #9d9b940a;
+  cursor: pointer;
+  border: 3px solid #e3e3de21;
+  padding: 10.5px;
+  border-radius: 28px;
+  }
+
+.section:hover {
+    margin-bottom: 20px;
+    background:#015f558;
+
+}
 .section-title {
     font-weight: bold;
     margin-bottom: 5px;

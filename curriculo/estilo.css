@@ -81,6 +81,17 @@ h1 {
 .section-content {
     margin-left: 20px;
 }
+.obejtivo-junior{
+  white-space-collapse: preserve-breaks;
+}
+.obejtivo-junior >p{
+    padding: 0px; /* Espaço interno ao redor do texto */
+     margin: 5px;  /* Espaço externo ao redor do parágrafo */
+     line-height: 1.5; /* Aumenta o espaçamento entre as linhas */
+     word-spacing: 5px; /* Aumenta o espaçamento entre as palavras */
+     letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+     border-block-end: 3px solid aliceblue;
+}
 
 .skills {
     display: grid;
